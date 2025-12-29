@@ -1,0 +1,315 @@
+// Стили для планшета
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+
+  .for {
+    &__item {
+      height: 268px;
+    }
+  }
+
+  .product-box {
+    padding-top: 0;
+  }
+
+  .link-box {
+    padding-top: 40px;
+  }
+
+  .content-box {
+    gap: 38px 29px;
+    padding-bottom: 0;
+  }
+
+  .filter {
+    right: 2px;
+  }
+
+  .cart__buttons {
+    margin-top: 0;
+  }
+
+  .booking {
+    margin-top: 32px;
+    &__h {
+      margin-top: 45px;
+    }
+  }
+
+  .footer {
+    &__logo {
+      display: none;
+    }
+
+    &__content {
+      width: 100%;
+    }
+
+    &__item {
+      padding: 0;
+
+      &-contacts {
+        padding-right: 52px;
+      }
+    }
+  }
+}
+
+@media (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .product {
+    width: 345px;
+  }
+}
+
+// Стили для телефона
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 29px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  select {
+    padding-left: 18px;
+    padding-right: 54px;
+  }
+
+  .top {
+    padding-top: 25px;
+  }
+
+  .header {
+    height: 57px;
+    padding-top: 16px;
+    border: none;
+
+    .logo__img {
+      width: 99px;
+    }
+
+    &__input, &__menu {
+      display: none;
+    }
+
+    &__menu-mobile {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    &__p {
+      font-size: 16px;
+      text-align: center;
+    }
+    &__link {
+      font-size: 14px;
+    }
+
+  }
+  
+  .heading {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .for-box, .special, .product-box {
+    margin-top: 0;
+    padding-top: 32px;
+  }
+
+  .for {
+    gap: 16px;
+
+    &__text {
+      font-size: 28px;
+    }
+  
+    &__item {
+      height: 375px;
+      grid-column: span 12;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &_big {
+        height: 244px;
+      }
+    }
+  }
+
+  .content-box {
+    row-gap: 32px;
+    padding-bottom: 0;
+  }
+  
+  .product {
+    max-width: 342px;
+
+    &__description {
+      margin-bottom: 12px;
+    }
+
+    &__price {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  .link-box {
+    padding-top: 37px;
+    padding-bottom: 32px;
+  }
+
+  .link-box-laptop {
+    display: none;
+  }
+
+  .link-box-mobile {
+    display: block;
+  }
+
+  .footer {
+    &__content {
+      gap: 70px 100px;
+      justify-content: center;
+    }
+
+    &__item-contacts {
+      padding-right: 30px;
+    }
+  }
+
+  // Страница каталога
+
+  .content-mobile {
+    row-gap: 35px;
+  }
+
+  .catalog-top {
+    background-position: -300px 0px;
+  }
+
+  .cat-heading {
+    margin-top: 90px;
+  }
+
+  .cat-band {
+    margin-top: 32px;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    .cat-way {
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .sort {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      &__show {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+
+    .filter {
+      left: -1px;
+      right: calc(100% - 286px);
+      align-items: flex-start;
+
+      &__content {
+        max-height: none;
+        min-width: 0;
+      }
+
+      .rooms {
+        width: 190px;
+      }
+    }
+  }
+
+  // Страница корзины 
+  .cart {
+    margin-top: 92px;
+
+    &__namebox {
+      display: none;
+    }
+
+    &__product {
+      padding-top: 18px;
+      padding-bottom: 26px;
+      padding-right: 8px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    &__product-next {
+      margin-top: 0;
+      padding-top: 18px;
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__info {
+      min-width: 208px;
+      width: auto;
+      gap: 8px;
+    }
+
+    &__todo {
+      padding-top: 6px;
+    }
+
+    &__buttons {
+      gap: 14px;
+    }
+  
+    &__button {
+      width: 166px;
+      font-size: 12px;
+  
+      &_continue {
+        width: 166px;
+      }
+    }
+  }
+
+  .booking {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
