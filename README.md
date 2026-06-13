@@ -55,11 +55,11 @@ https://kors-ak.github.io/ecommerce-furniture-store
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/kors-ak/site.git
+   git clone https://github.com/kors-ak/ecommerce-furniture-store.git
 
 2. Перейдите в папку проекта:
    ```bash
-   cd site
+   cd ecommerce-furniture-store
 
 3. Откройте файл index.html в браузере или запустите локальный сервер (например, с помощью Live Server в VS Code).
 
