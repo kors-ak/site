@@ -3,7 +3,7 @@
 *Учебный проект по frontend‑разработке*
 
 ## Демо
-https://kors-ak.github.io/site/
+https://kors-ak.github.io/ecommerce-furniture-store
 
 ## Описание проекта
 
@@ -49,7 +49,7 @@ https://kors-ak.github.io/site/
 
 Ознакомиться с рабочей версией проекта можно на GitHub Pages:
 
-**[Посмотреть сайт](https://kors-ak.github.io/site/)**
+[Посмотреть сайт](https://kors-ak.github.io/ecommerce-furniture-store/)
 
 ## Запуск проекта локально
 
